@@ -1,0 +1,16 @@
+body.grid-layout {
+  display: grid;
+  grid-template-areas: "header" "content" "footer";
+  grid-template-columns: 0.75fr 1fr 0.75fr;
+}
+body.grid-layout header {
+  grid-area: header;
+}
+body.grid-layout main {
+  grid-area: content;
+}
+body.grid-layout footer {
+  grid-area: footer;
+}
+
+/*# sourceMappingURL=style.css.map */

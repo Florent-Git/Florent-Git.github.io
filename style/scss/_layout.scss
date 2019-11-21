@@ -1,0 +1,19 @@
+body {
+  &.grid-layout {
+    display: grid;
+    grid-template-areas: "header" "content" "footer";
+    grid-template-columns: 0.75fr 1fr 0.75fr;
+
+    header {
+      grid-area: header;
+    }
+    
+    main {
+      grid-area: content;
+    }
+
+    footer {
+      grid-area: footer;
+    }
+  }
+}
