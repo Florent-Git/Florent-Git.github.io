@@ -4,15 +4,19 @@ body.grid-layout {
   display: grid;
   grid-template-areas: "header" "content" "footer";
   grid-template-columns: 0.75fr 1fr 0.75fr;
+  grid-template-rows: 1fr 8fr 1fr;
 }
 body.grid-layout header {
   grid-area: header;
+  background: #654321;
 }
 body.grid-layout main {
   grid-area: content;
+  background: white;
 }
 body.grid-layout footer {
   grid-area: footer;
+  background: #123456;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -4,18 +4,22 @@ body {
 	height: 100vh;
     display: grid;
     grid-template-areas: "header" "content" "footer";
-    grid-template-columns: 0.75fr 1fr 0.75fr;
+	grid-template-columns: 0.75fr 1fr 0.75fr;
+	grid-template-rows: 1fr 8fr 1fr;
 
     header {
-      grid-area: header;
+	  grid-area: header;
+	  background: $header_background;
     }
 
     main {
-      grid-area: content;
+	  grid-area: content;
+	  background: $main_background;
     }
 
     footer {
-      grid-area: footer;
+	  grid-area: footer;
+	  background: $footer_background;
     }
   }
 }
