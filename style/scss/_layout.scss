@@ -8,19 +8,19 @@ body {
 	grid-template-columns: 0.75fr 1fr 0.75fr;
 	grid-template-rows: 1fr 8fr 1fr;
 
-    header {
+    #header {
 	  grid-area: header;
-	  background: $header_background;
+	  background: $brand_color;
     }
 
-    main {
+    #main {
 	  grid-area: content;
-	  background: $main_background;
+	  background: $light_shade;
     }
 
-    footer {
+    #footer {
 	  grid-area: footer;
-	  background: $footer_background;
+	  background: $dark_shade;
     }
   }
 }
