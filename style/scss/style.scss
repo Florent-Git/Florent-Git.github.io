@@ -1,13 +1,37 @@
-@import "vars/vars";
+.slide {
+    position: relative;
+    z-index: -1;
 
-$main_background: $white;
-$header_background: #654321;
-$footer_background: #123456;
+    & .slide-text {
+        z-index: 1;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        padding: 1.5rem;
+    }
 
-* {
-    padding: 0;
-    margin: 0;
+    & img {
+        width: 100vw;
+        filter: brightness(.8);
+    }
+
+    & .more-info {
+        position: absolute;
+        left: 50%;
+        top: 92%;
+        z-index: 1;
+        transform: translate(-50%, 0);
+    }
 }
 
-@import "layout";
+$theme-colors: (
+    "primary": seagreen,
+    "info": #1d1b24,
+    "success": #48a856,
+    "warning": #c5981e,
+    "danger": #f44336
+);
 
+@import '../../node_modules/bootstrap/scss/bootstrap';
