@@ -1,29 +1,4 @@
 @charset "UTF-8";
-.slide {
-  position: relative;
-  z-index: -1;
-}
-.slide .slide-text {
-  z-index: 1;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  padding: 1.5rem;
-}
-.slide img {
-  width: 100vw;
-  filter: brightness(0.8);
-}
-.slide .more-info {
-  position: absolute;
-  left: 50%;
-  top: 92%;
-  z-index: 1;
-  transform: translate(-50%, 0);
-}
-
 /*!
  * Bootstrap v4.4.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
@@ -9899,6 +9874,40 @@ h3 {
     color: inherit;
     border-color: #dee2e6;
   }
+}
+.slide {
+  position: relative;
+  z-index: -1;
+}
+.slide .slide-text {
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  padding: 1.5rem;
+}
+.slide img {
+  width: 100vw;
+  filter: brightness(0.8);
+}
+.slide .more-info {
+  position: absolute;
+  left: 50%;
+  top: 92%;
+  z-index: 1;
+  transform: translate(-50%, 0);
+}
+
+.three-skills {
+  display: flex;
+}
+.three-skills .card {
+  width: 15rem;
+}
+.three-skills .card .card-img-top i {
+  font-size: 6rem;
 }
 
 /*# sourceMappingURL=style.css.map */
