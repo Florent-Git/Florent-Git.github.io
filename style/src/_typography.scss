@@ -1,0 +1,6 @@
+@for $i from 1 to 6 {
+    h#{$i} {
+        font-family: 'Oxygen', 'Roboto', sans-serif;
+        font-size: .75rem * (7 - $i);
+    }
+}

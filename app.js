@@ -1,4 +1,8 @@
 (function () {
+    const $ = (selector) => document.querySelectorAll(selector);
+
+    let navButtons = $(".nav-buttons");
+
     const createNode = (el) => () => document.createElement(el);
 
     const appendTo = (parent) => (child) => {

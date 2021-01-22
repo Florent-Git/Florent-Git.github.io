@@ -1,35 +1,84 @@
+.primary-color {
+  color: #44eeff;
+}
+
 ul {
   padding: 0;
   list-style-type: none;
 }
 
-body {
+.page {
+  margin-left: 5rem;
+  padding: 1rem;
+  width: 100%;
+  height: 100vh;
+}
+
+h1 {
+  font-family: "Oxygen", "Roboto", sans-serif;
+  font-size: 4.5rem;
+}
+
+h2 {
+  font-family: "Oxygen", "Roboto", sans-serif;
+  font-size: 3.75rem;
+}
+
+h3 {
+  font-family: "Oxygen", "Roboto", sans-serif;
+  font-size: 3rem;
+}
+
+h4 {
+  font-family: "Oxygen", "Roboto", sans-serif;
+  font-size: 2.25rem;
+}
+
+h5 {
+  font-family: "Oxygen", "Roboto", sans-serif;
+  font-size: 1.5rem;
+}
+
+.hidden {
+  display: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+html body {
   padding: 0;
   margin: 0;
-  background: url("../assets/svg/Subtle-Prism.svg");
+  background: url("../assets/svg/svg-background.svg");
   background-color: #ffffff;
   background-attachment: fixed;
   background-size: cover;
 }
-body aside {
+html body aside {
   position: fixed;
   width: 5rem;
   height: 100vh;
   background-color: #2c2c2c;
 }
-body aside ul {
+html body aside ul {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100%;
 }
-body aside ul li {
+html body aside ul li {
   margin: 2rem 0;
 }
-body aside ul li svg {
+html body aside ul li svg {
   color: #c2c2c2;
   font-size: 2rem;
+}
+html body section#main #main-bg {
+  width: 100%;
+}
+html body section#presentation {
+  background-color: #1e1e1e;
 }
 
 /*# sourceMappingURL=style.css.map */
